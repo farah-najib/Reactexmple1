@@ -6,12 +6,13 @@ import Main from './Main'
 import Home from './Home'
 import Contact from './Contact'
 import About from './About'
+import Navigation from './Navigation'
 
 function App() {
   return (
     <div className="App">
     <Router>
-      <Header />
+      <Navigation/>
       <Switch>
         <Route path="/" exact component={() => <Home />} />
         <Route path="/about" exact component={() => <About />} />
