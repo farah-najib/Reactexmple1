@@ -1,2 +1,15 @@
-const jsxElement = <h1>This is a JSX element</h1>
-const rootElement = document.getElementById('root')
+
+import React, { Component } from 'react';
+
+export default class Main extends Component {
+
+  render() {
+    return (
+
+    <main>
+      <div >
+     main content 
+      </div>
+    </main>
+  )
+    }}
