@@ -1,4 +1,5 @@
 import React from "react";
+import UiButton from "./UiButton";
     class ButtonBox extends React.Component {
         constructor(props) {
           super(props);
@@ -27,3 +28,4 @@ import React from "react";
           );
         }  
       }
+      export default ButtonBox;

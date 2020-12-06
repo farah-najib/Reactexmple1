@@ -1,5 +1,6 @@
 import React from "react";
-    
+import UiCard from "./UiCard"
+import ButtonBox from "./ButtonBox"
   class SocialCard extends React.Component {
       render() {
         return (

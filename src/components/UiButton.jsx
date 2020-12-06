@@ -1,7 +1,7 @@
 import React from "react";
 const UiButton = props => {
     const classes = (props.isClicked) ?
-      "ui-button clicked" : "ui-button";
+      "ui-button clicked" : "ui-button";//for css style
     const number = (props.isClicked) ?
           (props.number + 1) : props.number;
     
@@ -13,3 +13,4 @@ const UiButton = props => {
       </button>
     );
   };
+  export default UiButton;

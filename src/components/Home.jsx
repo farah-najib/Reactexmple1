@@ -4,7 +4,16 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
-hello
+   <div className='card-grid-view'>
+      {posts.map(e => (
+        <Card 
+          key={e.id}
+          content={e.content}
+          likes={e.likes}
+          likeIsClicked={e.likeIsClicked}
+          />
+      ))}
+    </div>
     </div>
   );
 }
