@@ -19,3 +19,4 @@ import ButtonBox from "./ButtonBox"
       }
     };
     
+    export default Card;
