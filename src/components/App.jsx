@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Navigation/>
       <Switch>
-        <Route path="/" exact component={() => <Home />} />
+        <Route path="/" exact component={() => <Main />} />
+        <Route path="/home" exact component={() => <Home />} />
         <Route path="/about" exact component={() => <About />} />
-        <Route path="/contact" exact component={() => <Contact />} />
       </Switch>
       
       <Footer />

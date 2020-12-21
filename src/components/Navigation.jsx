@@ -7,7 +7,7 @@ function Navigation(props) {
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <Link class="navbar-brand" to="/">
-            React
+            React by examples 
           </Link>
           <button
             class="navbar-toggler"
@@ -28,17 +28,17 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/">
-                  Home
+                  
                   <span class="sr-only">(current)</span>
                 </Link>
               </li>
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/about" ? "active" : ""
+                  props.location.pathname === "/home" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/about">
-                  About
+                <Link class="nav-link" to="/home">
+                  card example
                 </Link>
               </li>
               <li
@@ -47,7 +47,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/contact">
-                  Contact
+                  about
                 </Link>
               </li>
             </ul>

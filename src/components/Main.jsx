@@ -9,7 +9,7 @@ export default class Main extends Component {
     return (
 
     <main>
-   
+   hello
     </main>
   )
     }}
