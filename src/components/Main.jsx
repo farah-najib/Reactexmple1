@@ -9,7 +9,11 @@ export default class Main extends Component {
     return (
 
     <main>
-   hello
+   <div>
+        <h2>HELLO</h2>
+        <p><h1>React by example : </h1>simple react card ..</p>
+
+      </div>
     </main>
   )
     }}
